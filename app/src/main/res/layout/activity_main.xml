@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:id="@+id/layout"
+    >
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:lineSpacingMultiplier="1.8"
+        android:text="这是一个文本输入框...."/>
+
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingMultiplier="1.8"
+        android:text="在上一篇Glide的文章中，你已经学了GlideModule的基础知识。他们提供了一个简单的方法去访问Glide核心部分的功能。你可以很快地通过实现和定义GlideModule改变Glide的行为。我们已经通过实现applyOptions()方法改变解析格式，去提升图片质量。文本，我们要使用其他的方法，registerComponents()，去改变Glide的网络栈，让它能从自签名HTTPS服务器接收连接和图片。"/>
+
+</LinearLayout>

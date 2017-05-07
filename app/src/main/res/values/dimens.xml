@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tooltip_arrow_size">16dp</dimen>
+    <dimen name="tooltip_arrow_size_half">8dp</dimen>
+    <dimen name="tooltip_frame_corner_radius">5dp</dimen>
+    <dimen name="tooltip_vertical_fram_margin">30dp</dimen>
+
+</resources>
